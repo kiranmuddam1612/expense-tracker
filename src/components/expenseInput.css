@@ -1,0 +1,13 @@
+
+.form-control {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.btn {
+    border: none;
+}
+
+.btn:hover {
+    background-color: #a295a1;
+}

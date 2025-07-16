@@ -1,12 +1,62 @@
-# React + Vite
+# 💸 Expense Tracker App  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and user-friendly Expense Tracker built with **React.js**. This project helps users **track their daily expenses**, calculate the **total amount spent**, and manage expenses efficiently with an intuitive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features  
 
-## Expanding the ESLint configuration
+✅ Add new expenses with description and amount  
+✅ View all your expenses in a clean table format  
+✅ Delete individual expenses easily  
+✅ View real-time total spending  
+✅ Clean and minimal UI with responsive design  
+✅ Bootstrap styling for consistent look and feel  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Structure  
+
+- **Entry Component:** For adding new expenses  
+- **Expense Table Component:** Displays history of all expenses  
+- **Calculate Expenses Component:** Shows total spending in real-time  
+- **Footer Component:** Simple footer for the app  
+
+---
+
+## 🛠️ Technologies Used  
+
+- **React.js**  
+- **Bootstrap 5**  
+- **CSS**  
+
+---
+
+## 📸 Preview  
+
+![Expense Tracker Screenshot](put-your-screenshot-link-here)
+
+---
+
+## 🚀 Getting Started  
+
+1. Clone the repository  
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+```
+
+2. Install dependencies  
+```bash
+npm install
+```
+
+3. Start the development server  
+```bash
+npm run dev
+```
+
+---
+
+## 🎯 Purpose of the Project  
+
+This project is built for practice purposes to improve skills in **React.js**, **state management (useState)**, **component structuring**, and **basic UI design**. It's ideal for anyone looking to create simple, functional React applications.
