@@ -21,7 +21,7 @@ const App = () => {
       <Navbar />
       <Entry onAddExpense={handleAddExpense}/>
        <div className="container d-flex justify-content-center my-3">
-                <ExpenseTable expenses={expenses} onDeleteExpense={handleDeleteExpense} />
+              <ExpenseTable expenses={expenses} handleDelete={handleDeleteExpense} />
                 <TotalExpense expenses={expenses} />
             </div>
             <Footer/>
