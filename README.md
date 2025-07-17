@@ -34,7 +34,7 @@ A simple and user-friendly Expense Tracker built with **React.js**. This project
 
 ## 📸 Preview  
 
-![Expense Tracker Screenshot](put-your-screenshot-link-here)
+you can go and visit the website here: https://expense-dashboard-react.netlify.app/
 
 ---
 
