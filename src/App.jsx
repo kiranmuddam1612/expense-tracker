@@ -6,6 +6,8 @@ import ExpenseTable from "./components/expenseTable.jsx";
 import TotalExpense from "./components/calculateExpense.jsx";
 import './components/footer.jsx'
 import Footer from "./components/footer.jsx";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 const App = () => {
   const [expenses, setExpenses] = useState([]);
 
@@ -20,7 +22,7 @@ const App = () => {
     <div>
       <Navbar />
       <Entry onAddExpense={handleAddExpense}/>
-       <div className="container d-flex justify-content-center my-3">
+      <div className="container d-flex flex-column flex-md-row justify-content-center align-items-center my-3">
               <ExpenseTable expenses={expenses} handleDelete={handleDeleteExpense} />
                 <TotalExpense expenses={expenses} />
             </div>
